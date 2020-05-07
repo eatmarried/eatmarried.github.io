@@ -114,4 +114,8 @@
 		}
 	});
 
+	$('body').mouseleave(function(){
+		$('#modalBroxa').modal('show')
+	})
+
 })(jQuery);
